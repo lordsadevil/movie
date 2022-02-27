@@ -4,7 +4,6 @@
     "stack": "container",
     "keywords": [
       "telegram",
-      "auto-filter",
       "filter",
       "best",
       "indian",
@@ -99,10 +98,10 @@
     },
     "addons": [],
     "buildpacks": [{
-        "url": "heroku/python"
+        "url": "railway/python"
     }],
     "formation": {
-        "worker": {
+        "web": {
             "quantity": 1,
             "size": "free"
         }
